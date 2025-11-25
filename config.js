@@ -355,7 +355,7 @@ class HybridConfigManager {
 const hybridConfig = new HybridConfigManager();
 module.exports = {
     hybridConfig,
-    session: process.env.SESSION_ID || 'Bwmxmd_i67y4',
+    session: process.env.SESSION_ID || 'Bwmxmd_oxoj8',
     sessionId: hybridConfig.getSessionId(),
     PREFIX: process.env.PREFIX || ".",
     GURL: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
@@ -372,7 +372,7 @@ module.exports = {
     get AUTO_REPLY_STATUS() { return hybridConfig.getSetting('AUTO_REPLY_STATUS', 'no'); },
     get MODE() { return hybridConfig.getSetting('PUBLIC_MODE', 'yes'); },
     get PM_PERMIT() { return process.env.PM_PERMIT || 'no'; },
-    get ETAT() { return hybridConfig.getSetting('PRESENCE', 'online'); },
+    get ETAT() { return hybridConfig.getSetting('PRESENCE', ''); },
     get CHATBOT() { return hybridConfig.getSetting('CHATBOT', 'no'); },
     get CHATBOT1() { return hybridConfig.getSetting('AUDIO_CHATBOT', 'no'); },
     get DP() { return hybridConfig.getSetting('STARTING_BOT_MESSAGE', 'yes'); },
