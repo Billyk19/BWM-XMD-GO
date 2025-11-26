@@ -355,7 +355,7 @@ class HybridConfigManager {
 const hybridConfig = new HybridConfigManager();
 module.exports = {
     hybridConfig,
-    session: process.env.SESSION_ID || 'Bwmxmd_oxoj8',
+    session: process.env.SESSION_ID || 'Bwmxmd_x15rz',
     sessionId: hybridConfig.getSessionId(),
     PREFIX: process.env.PREFIX || ".",
     GURL: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
